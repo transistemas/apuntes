@@ -94,7 +94,7 @@ Ejemplo: https://github.com/joseCaceres086/transistemas-web
 
 En la consola nos paramos en la carpeta donde queremos que este nuestro proyecto, usamos el comando “cd” para entrar en la carpeta que queremos.
 
-**(Para entrar a un carpeta de nuestra computadora desde una terminal usamos el comando “cd”, escribimos cd y la ruta de la carpeta a la que queremos entrar, ejemplo: “cd d:/miCarpeta/repos”)**
+(Para entrar a un carpeta de nuestra computadora desde una terminal usamos el comando “cd”, escribimos cd y la ruta de la carpeta a la que queremos entrar, ejemplo: “cd d:/miCarpeta/repos”)
 
 
 Y ejecutamos el comando *clone*:
@@ -112,6 +112,7 @@ Me permite ver que archivos fueron modificados con respecto a lo que está en el
 
 ![newrepo6](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo6.JPG)
 
+
 **git reset**
 
 Me permite quitar archivos agregados con el add para el commit. Pongo *git reset* más el nombre del archivo que quiero quitar. Ejemplo: *git reset miarchivo.html*
@@ -128,7 +129,8 @@ Me permite bajar los cambios que están en el repositorio de la nube a mi reposi
 
 **git branch**
 
-Me muestra la lista de branchs que existen en mi repositorio local. Si le agrego *git branch -a* me muestra tanto los locales como los del
+Me muestra la lista de branchs que existen en mi repositorio local (el que aparece en verde es en el que estoy parado).
+Si le agrego *git branch -a* me muestra tanto los locales como los del repositorio del github. 
 
 
 
