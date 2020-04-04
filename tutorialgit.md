@@ -27,7 +27,7 @@
 *sudo yum -y update*
 *sudo yum install git*
 
-Para chequear que se instalo correctamente ejecutamos en la consola:
+Para chequear que se instaló correctamente ejecutamos en la consola:
 git --version	
 y nos tiene que aparecer la versión de git que se instaló en nuestra computadora.
 
@@ -35,8 +35,10 @@ y nos tiene que aparecer la versión de git que se instaló en nuestra computado
 
 En github entramos con nuestro usuario, vamos a la parte de repositorios y hacemos click en NEW
 
-newRepo1
-newRepo2
+![newrepo1](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo1.jpg)
+
+![newrepo2](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo2.jpg)
+
 
 Una vez creado entramos en nuestra terminal a la carpeta donde vamos a tener localmente nuestros archivos para vincular con el repositorio.
 
