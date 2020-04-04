@@ -37,6 +37,8 @@ En github entramos con nuestro usuario, vamos a la parte de repositorios y hacem
 
 ![newrepo1](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo1.jpg)
 
+-------------------------------------------------------------------------------------------------
+
 ![newrepo2](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo2.jpg)
 
 
@@ -45,10 +47,13 @@ Una vez creado entramos en nuestra terminal a la carpeta donde vamos a tener loc
 (Para entrar a un carpeta de nuestra computadora desde una terminal usamos el comando “cd”, escribimos cd y la ruta de la carpeta a la que queremos entrar, ejemplo: 
 *cd c:/miCarpeta/repos*)
 
-newRepo3
+![newrepo3](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo3.JPG)
+
+
 Una vez que estamos, podemos ejecutar todos los comandos que se nos desplegaron en github al crear el repo:
 
-newRepo4
+![newrepo4](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo4.JPG)
+
 
 *git init*
 (Inicializa nuestra carpeta como un repositorio git)
@@ -78,7 +83,7 @@ Y ejecutamos el comando “clone”:
 
 git clone https://github.com/joseCaceres086/transistemas-web.git
 
-newRepo5
+![newrepo5](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo5.JPG)
 
 
 ## Comandos utiles:
@@ -86,19 +91,22 @@ newRepo5
 **git status**
 
 Me permite ver que archivos fueron modificados con respecto a lo que está en el repositorio de la nube. Me va a aparecer en rojo lo que no esté agregado al paquete para commitear y en verde lo que esté agregado (va a aparecer en verde todo lo que haya agregado con “git add nombrearchivo.html”)
-newRepo6
+
+![newrepo6](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo6.JPG)
 
 **git reset**
 
 Me permite quitar archivos agregados con el add para el commit. Pongo “git reset” más el nombre del archivo que quiero quitar. Ejemplo: *git reset miarchivo.html*
 
-newrepo7
+![newrepo7](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo7.JPG)
+
 
 **git pull**
 
 Me permite bajar los cambios que están en el repositorio de la nube a mi repositorio local. Si no hay cambios me va a aparecer “already up to date”
- 
-newrepo8
+
+![newrepo8](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo8.JPG)
+
 
 
 
