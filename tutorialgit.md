@@ -18,15 +18,23 @@
 
 - Abrir la terminal y correr el siguiente comando: 
 - Ubuntu: 	
+
 	*sudo apt update*
+
 	*sudo apt install git*
 
+
 - Fedora: 	
+
 	*sudo dnf update*
+
 	*sudo dnf install git*
 
+
 - Otras distribuciones:
+
 	*sudo yum -y update*
+
 	*sudo yum install git*
 
 Para chequear que se instaló correctamente ejecutamos en la consola:
