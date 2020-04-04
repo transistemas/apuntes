@@ -17,18 +17,22 @@
 **En linux (Linux Mint, Fedora, Ubuntu, Debian, etc)**
 
 - Abrir la terminal y correr el siguiente comando: 
-- Ubuntu: 	*sudo apt update*
-*sudo apt install git *
+- Ubuntu: 	
+	*sudo apt update*
+	*sudo apt install git*
 
-- Fedora: 	*sudo dnf update *
-*sudo dnf install git*
+- Fedora: 	
+	*sudo dnf update*
+	*sudo dnf install git*
 
-	- Otras distribuciones:
-*sudo yum -y update*
-*sudo yum install git*
+- Otras distribuciones:
+	*sudo yum -y update*
+	*sudo yum install git*
 
 Para chequear que se instaló correctamente ejecutamos en la consola:
-git --version	
+
+git --version
+
 y nos tiene que aparecer la versión de git que se instaló en nuestra computadora.
 
 ## ¿Cómo crear un repositorio desde cero?
@@ -90,7 +94,7 @@ git clone https://github.com/joseCaceres086/transistemas-web.git
 
 **git status**
 
-Me permite ver que archivos fueron modificados con respecto a lo que está en el repositorio de la nube. Me va a aparecer en rojo lo que no esté agregado al paquete para commitear y en verde lo que esté agregado (va a aparecer en verde todo lo que haya agregado con “git add nombrearchivo.html”)
+Me permite ver que archivos fueron modificados con respecto a lo que está en el repositorio de la nube. Me va a aparecer en rojo lo que no esté agregado al paquete para commitear y en verde lo que esté agregado (va a aparecer en verde todo lo que haya agregado con *git add nombrearchivo.html*)
 
 ![newrepo6](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo6.JPG)
 
