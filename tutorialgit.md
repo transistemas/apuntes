@@ -16,7 +16,8 @@
  
 **En linux (Linux Mint, Fedora, Ubuntu, Debian, etc)**
 
-- Abrir la terminal y correr el siguiente comando: 
+Abrir la terminal y correr el siguiente comando: 
+
 - Ubuntu: 	
 
 	*sudo apt update*
@@ -39,7 +40,7 @@
 
 Para chequear que se instaló correctamente ejecutamos en la consola:
 
-git --version
+*git --version*
 
 y nos tiene que aparecer la versión de git que se instaló en nuestra computadora.
 
@@ -49,32 +50,34 @@ En github entramos con nuestro usuario, vamos a la parte de repositorios y hacem
 
 ![newrepo1](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo1.jpg)
 
--------------------------------------------------------------------------------------------------
+
+Luego nos va a aparecer esta ventana, donde podemos poner el nombre del repo (es una buena práctica poner el nombre del proyecto como nombre de repositorio), si es público o privado y si queremos que inicie con un archivo llamado readme (que es aconsejable que los proyectos de sistemas tengan un readme, pero no es obligatorio). Y le damos click a “create repository”
+
 
 ![newrepo2](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo2.jpg)
 
 
 Una vez creado entramos en nuestra terminal a la carpeta donde vamos a tener localmente nuestros archivos para vincular con el repositorio.
 
-(Para entrar a un carpeta de nuestra computadora desde una terminal usamos el comando “cd”, escribimos cd y la ruta de la carpeta a la que queremos entrar, ejemplo: 
-*cd c:/miCarpeta/repos*)
+(Para entrar a un carpeta de nuestra computadora desde una terminal usamos el comando “cd”, escribimos cd y la ruta de la carpeta a la que queremos entrar, ejemplo: “cd d:/miCarpeta/repos”)
 
 ![newrepo3](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo3.JPG)
 
 
-Una vez que estamos, podemos ejecutar todos los comandos que se nos desplegaron en github al crear el repo:
+Una vez que estamos en la carpeta que deseamos vamos a ejecutar todos los comandos que se nos desplegaron en github al crear el repo:
 
 ![newrepo4](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo4.JPG)
 
+### ¿Cómo crear un repositorio desde cero?
 
 *git init*
-(Inicializa nuestra carpeta como un repositorio git)
+(Inicializa nuestra carpeta como un repositorio git, esto es necesario la primera vez solamente)
 
 *git add README.md*
 (Con este comando agregamos los archivos que queremos subir)
 
 *git commit -m "first commit"*
-(Prepara el paquete de archivos que se van a subir)
+(Prepara el paquete de archivos que se van a subir y las vincula al branch donde estamos parados)
 
 *git remote add origin https://github.com/caru08/miRepositorio.git*
 (Le indica a nuestra carpeta local cuál va a ser el repositorio de github con el que se va a vincular)
@@ -91,9 +94,12 @@ Ejemplo: https://github.com/joseCaceres086/transistemas-web
 
 En la consola nos paramos en la carpeta donde queremos que este nuestro proyecto, usamos el comando “cd” para entrar en la carpeta que queremos.
 
-Y ejecutamos el comando “clone”:
+**(Para entrar a un carpeta de nuestra computadora desde una terminal usamos el comando “cd”, escribimos cd y la ruta de la carpeta a la que queremos entrar, ejemplo: “cd d:/miCarpeta/repos”)**
 
-git clone https://github.com/joseCaceres086/transistemas-web.git
+
+Y ejecutamos el comando *clone*:
+
+*git clone https://github.com/joseCaceres086/transistemas-web.git*
 
 ![newrepo5](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo5.JPG)
 
@@ -108,7 +114,7 @@ Me permite ver que archivos fueron modificados con respecto a lo que está en el
 
 **git reset**
 
-Me permite quitar archivos agregados con el add para el commit. Pongo “git reset” más el nombre del archivo que quiero quitar. Ejemplo: *git reset miarchivo.html*
+Me permite quitar archivos agregados con el add para el commit. Pongo *git reset* más el nombre del archivo que quiero quitar. Ejemplo: *git reset miarchivo.html*
 
 ![newrepo7](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo7.JPG)
 
@@ -119,6 +125,10 @@ Me permite bajar los cambios que están en el repositorio de la nube a mi reposi
 
 ![newrepo8](https://github.com/transistemas/apuntes/blob/master/archivos/tutorialgit/newrepo8.JPG)
 
+
+**git branch**
+
+Me muestra la lista de branchs que existen en mi repositorio local. Si le agrego *git branch -a* me muestra tanto los locales como los del
 
 
 
