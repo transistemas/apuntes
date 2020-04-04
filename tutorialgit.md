@@ -12,7 +12,7 @@
 **En windows:**
 
 - Instalar GITBASH. 
- [GitHub](https://gitforwindows.org/)
+ [GitBash](https://gitforwindows.org/)
  
 **En linux (Linux Mint, Fedora, Ubuntu, Debian, etc)**
 
