@@ -18,11 +18,11 @@
 
  :heavy_check_mark: David Gael Nelson: [GitHub](https://github.com/davigan) 
 
- :heavy_check_mark: Elena Ficher: [GitHub](https://github.com/elenaficher) 	
+ :heavy_check_mark: Elena Ficher: [GitHub](https://github.com/elenaficher)	
 
- :heavy_check_mark: Vittorio Taddeo: [GitHub](https://github.com/DoubleT-DoubleD) 
+ :heavy_check_mark: Medea Nova Diorio: [GitHub](https://github.com/medi4s) 
 
- :heavy_check_mark: Medea Nova Diorio: [GitHub](https://github.com/medi4s) 	
+ :heavy_check_mark: Vittorio Taddeo: [GitHub](https://github.com/DoubleT-DoubleD)
 
 
 
