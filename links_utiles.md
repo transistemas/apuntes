@@ -1,6 +1,6 @@
 ![LogoTransistemas](https://github.com/transistemas/apuntes/blob/master/archivos/logo-transistemas.svg)
 
-# LINKS ÚTILES - COOPERATIVA TRANSISTEMAS 
+# LINKS ÚTILES - TRANSISTEMAS 
 
 ## INTEGRANTES:
 
