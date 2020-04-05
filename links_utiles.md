@@ -30,7 +30,7 @@
 
 **Web Transistemas**
 
- [GitHub](https://github.com/joseCaceres086/transistemas-web) 
+ [GitHub](https://github.com/transistemas/transistemas-web-final) 
 
 
 ## CLASES:
